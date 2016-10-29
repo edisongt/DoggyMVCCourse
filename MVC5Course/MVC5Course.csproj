@@ -180,6 +180,7 @@
     <Compile Include="Controllers\EFController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\MBController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -390,6 +391,9 @@
     <Content Include="Views\EF\ClientContribution3.cshtml" />
     <Content Include="Views\AR\Index.cshtml" />
     <Content Include="Views\AR\PartialViewTest.cshtml" />
+    <Content Include="Views\MB\Index.cshtml" />
+    <Content Include="Views\MB\MyForm.cshtml" />
+    <Content Include="Views\MB\MyFormResult.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
