@@ -11,8 +11,11 @@ using MVC5Course.Models.ViewModels;
 
 namespace MVC5Course.Controllers
 {
+    //[Authorize(Users = "admin,manager")]
+    //[RequireHttps]
     public class ClientsController : BaseController
     {
+        //[OutputCache(Duration = 30, Location = System.Web.UI.OutputCacheLocation.Server)]
         // GET: Clients
         public ActionResult Index(string search)
         {
