@@ -15,6 +15,7 @@ namespace MVC5Course.Controllers
         ProductRepository repo = RepositoryHelper.GetProductRepository();
 
         // GET: Products
+        [Route("products/list")]
         public ActionResult Index()
         {
             //var repo = new ProductRepository();
@@ -67,6 +68,7 @@ namespace MVC5Course.Controllers
         }
 
         // GET: Products/Edit/5
+        [Route("prod/edit/{id}")]
         public ActionResult Edit(int? id)
         {
             if (id == null)
