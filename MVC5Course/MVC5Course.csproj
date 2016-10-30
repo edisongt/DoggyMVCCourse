@@ -178,6 +178,7 @@
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\ClientsController.cs" />
     <Compile Include="Controllers\EFController.cs" />
+    <Compile Include="Controllers\FormController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="ActionFilters\LocalDebugOnlyAttribute.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -424,6 +425,7 @@
     <Content Include="Views\VT\_ViewStart.cshtml" />
     <Content Include="Views\Orders\Index.cshtml" />
     <Content Include="Views\Clients\ClientOrders.cshtml" />
+    <Content Include="Views\Form\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
