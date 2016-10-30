@@ -149,7 +149,7 @@
 
 <h3>Html.Partial</h3>
 
-@Html.Partial("../Orders/Index", Model.Order.ToList())
+@Html.Partial("ClientOrders", Model.Order.ToList())
 
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.ClientId }) |
