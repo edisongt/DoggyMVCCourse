@@ -426,6 +426,8 @@
     <Content Include="Views\Orders\Index.cshtml" />
     <Content Include="Views\Clients\ClientOrders.cshtml" />
     <Content Include="Views\Form\Index.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\Client.cshtml" />
+    <Content Include="Views\Shared\DisplayTemplates\Client.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
