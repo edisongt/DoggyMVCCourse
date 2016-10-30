@@ -182,6 +182,7 @@
     <Compile Include="ActionFilters\LocalDebugOnlyAttribute.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MBController.cs" />
+    <Compile Include="Controllers\OrdersController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="ActionFilters\ShareDataAttribute.cs" />
     <Compile Include="Controllers\VTController.cs" />
@@ -421,6 +422,7 @@
     <Content Include="Views\VT\NewIndex.cshtml" />
     <Content Include="Views\Shared\_LayoutBootstrap.cshtml" />
     <Content Include="Views\VT\_ViewStart.cshtml" />
+    <Content Include="Views\Orders\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
