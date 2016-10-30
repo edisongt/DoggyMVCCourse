@@ -398,6 +398,7 @@
     <Content Include="Views\MB\MyForm.cshtml" />
     <Content Include="Views\MB\MyFormResult.cshtml" />
     <Content Include="Views\MB\ProductList.cshtml" />
+    <Content Include="Views\Shared\Error_DbEntityValidationException.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
