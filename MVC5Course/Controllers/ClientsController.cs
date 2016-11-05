@@ -13,6 +13,7 @@ namespace MVC5Course.Controllers
 {
     //[Authorize(Users = "admin,manager")]
     //[RequireHttps]
+    [Authorize]
     public class ClientsController : BaseController
     {
         //[OutputCache(Duration = 30, Location = System.Web.UI.OutputCacheLocation.Server)]
