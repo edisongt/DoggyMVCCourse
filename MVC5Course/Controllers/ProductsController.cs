@@ -137,5 +137,10 @@ namespace MVC5Course.Controllers
             }
             base.Dispose(disposing);
         }
+
+        public ActionResult test()
+        {
+            return PartialView();
+        }
     }
 }
